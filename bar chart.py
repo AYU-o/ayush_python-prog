@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
 
-cat = ["a","b","c"]
-exp=[100,300,500]
+cat = ["Aryan","Askini","Ayush","Divakar"]
+exp=[10,95,78,81]
 
 plt.bar(cat,exp, color='blue')
 
-plt.xlabel("x")
-plt.ylabel("y")
-plt.title("abc")
+plt.xlabel("Name of students-->")
+plt.ylabel("Marks (in %age) -->")
+plt.title("9th Class Final term marks :-")
 
 plt.show()
